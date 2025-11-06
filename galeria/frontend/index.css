@@ -1,0 +1,23 @@
+body{
+    background-image: url('../imagens/background.jpg');
+    min-height: 100vh; 
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+galeria-grid{
+    width: 200px;
+    display: grid;
+    margin: 40px auto;   
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    max-width: 200px;
+    display: block;
+}
+    
+
+

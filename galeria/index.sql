@@ -1,0 +1,6 @@
+CREATE TABLE fotos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_arquivo VARCHAR(255) NOT NULL,
+    legenda TEXT,
+    data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
